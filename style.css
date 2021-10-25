@@ -1,0 +1,50 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("mountain1.jpeg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ }
+.container {
+  width: 500px;
+  height: 350px;
+  margin: 8rem auto;
+   font-family: Arial, Helvetica, sans-serif;
+   display: flex;
+   justify-items: center;
+    align-items: center;
+    background-color: rgb(245, 244, 243);
+    opacity: 0.5;
+    
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+ #Enter-submit{
+	width:200px;
+	height:50px;
+	background-color:#1ee3d2;
+  border-radius: 50px 20px;
+  border: 2px solid rgb(0, 255, 106);
+ }
+
+ .form{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: stretch;
+  justify-content: center;
+  align-items: flex-end;
+}
+ .userNamePassword{
+margin:20px;
+padding:10px;
+width: 25rem;
+ }
